@@ -3,7 +3,7 @@ import copy
 
 class DecisionTree:
     """
-    A decision tree that supports binary target variables.
+    A decision tree that supports binary target variables. Uses entropy.
     """
     def __init__(self, max_depth = 1):
         """
